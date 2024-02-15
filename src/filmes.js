@@ -1,123 +1,123 @@
-const filmes = [
+const movie = [
     {
-        url: "https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/87/30/21/19874092.jpg",
-        titulo: "Forrest Gump - O Contador de História",
-        tipo: ["Comédia", "Drama", "Romance"],
-        diretor:  "Robert Zemeckis",
-        elenco:["Tom Hanks", "Gary Sinise", "Robin Wright"],
-        sinopsi: "Quarenta anos da história dos Estados Unidos, vistos pelos olhos de Forrest Gump (Tom Hanks), um rapaz com QI abaixo da média e boas intenções. Por obra do acaso, ele consegue participar de momentos cruciais, como a Guerra do Vietnã e Watergate, mas continua pensando no seu amor de infância, Jenny Curran.",
-        avaliação:"4,7",
+        url: "https://br.web.img2.acsta.net/c_310_420/pictures/23/12/12/15/59/2772653.jpg",
+        titulo: "Madame Teia",
+        tipo: "Ficção",
+        diretor:  "S.J Clarkson",
+        elenco:["Dakota Johnson", "Sydney Sweeney", "Isabela Merced"],
+        sinopsi: "Uma mulher que pode ver o futuro se junta a três jovens para combater uma ameaça em comum.",
+        avaliação:"3,2",
     },
     {
-        url: "https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/90/93/20/20120876.jpg",
-        titulo: "O Poderoso Chefão",
-        tipo: "Relançamento 24 de fevereiro de 2022",
-        diretor:  "Francis Ford Coppola",
-        elenco:["Marlon Brando", "Al Pacino", "James Caan"],
-        sinopsi: "Don Vito Corleone (Marlon Brando) é o chefe de uma 'família' de Nova York que está feliz, pois Connie (Talia Shire), sua filha, se casou com Carlo (Gianni Russo). Porém, durante a festa, Bonasera (Salvatore Corsitto) é visto no escritório de Don Corleone pedindo 'justiça', vingança na verdade contra membros de uma quadrilha, que espancaram ...",
-        avaliação:"4,8",
+        url: "https://br.web.img2.acsta.net/c_310_420/pictures/23/04/24/16/38/3592850.png",
+        titulo: "Nosso Lar 2: Os Mensageiros",
+        tipo: ["Fantasia", "Ficção"],
+        diretor:  "Wagner de Assis",
+        elenco:["Edson Celulari",  "Fábio Lago",  "Othon Bastos"],
+        sinopsi: "Sequência de Nosso Lar (2010), uma cidade astral onde espíritos vão para aprender lições e conhecimentos.",
+        avaliação:"3,2",
     },
     {
-        url: "https://br.web.img3.acsta.net/c_310_420/pictures/19/04/10/19/44/2904073.jpg",
-        titulo: "A Lista de Schindler",
-        tipo: ["Biopic", "Drama", "História"],
-        diretor:  "Steven Spielberg",
-        elenco:["Liam Neeson", "Ben Kingsley", "Ralph Fiennes"],
-        sinopsi: "A inusitada história de Oskar Schindler (Liam Neeson), um sujeito oportunista, sedutor, 'armador', simpático, comerciante no mercado negro, mas, acima de tudo, um homem que se relacionava muito bem com o regime nazista, tanto que era membro do próprio Partido Nazista (o que não o impediu de ser preso algumas vezes, mas sempre o libertavam ...",
-        avaliação:"3,9",
+        url: "https://br.web.img3.acsta.net/c_310_420/pictures/23/10/19/16/00/5781108.jpg",
+        titulo: "Todos Menos Você",
+        tipo: ["Comédia", "Romance"],
+        diretor:  "Will Gluck",
+        elenco:["Sydney Sweeney",  "Glen Powell",  "Alexandra Shipp"],
+        sinopsi: "Em Todos Menos Você Bea (Sydney Sweeney) e Ben (Glen Powell), combinam um encontro após se esbarrar nos corredores da faculdade em que estudam. Em uma noite quase perfeita, o jovem casal possui tudo para manter o contato: química, uma boa conversa e um incrível desejo um pelo outro. ",
+        avaliação:"3,7",
     },
     {
-        url: "https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/90/16/48/20083748.jpg",
-        titulo: "Um Sonho de Liberdade",
-        tipo: "Drama",
-        diretor:  "Frank Darabont",
-        elenco:["Tim Robbins", "Morgan Freeman", "Bob Gunton"],
-        sinopsi: "Em 1946, Andy Dufresne (Tim Robbins), um jovem e bem sucedido banqueiro, tem a sua vida radicalmente modificada ao ser condenado por um crime que nunca cometeu, o homicídio de sua esposa e do amante dela. Ele é mandado para uma prisão que é o pesadelo de qualquer detento, a Penitenciária Estadual de Shawshank, no Maine. Lá ele irá cumprir a ...",
-        avaliação:"4,8",
+        url: "https://br.web.img3.acsta.net/c_310_420/pictures/23/12/21/17/23/0868774.jpg",
+        titulo: "Baghead: A Bruxa dos Mortos",
+        tipo: "Terror",
+        elenco:["Freya Allan", "Jeremy Irvine", "Ruby Barker"],
+        sinopsi: "Em Baghead: A Bruxa dos Mortos, uma garota explora uma entidade capaz de falar com os mortos e sofre consequências terríveis.",
+        avaliação:"3,2",
     },
     {
-        url: "https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/87/84/28/19962110.jpg",
-        titulo: "O Rei Leão",
-        tipo: ["Aventura", "Animação", "Família"],
-        diretor:  ["Roger Allers", "Rob Minkoff"],
-        elenco:["Garcia Júnior", "Matthew Broderick", "Jonathan Taylor"],
-        sinopsi: "Simba, um leão herdeiro do trono, precisará enfrentar seu tio Scar e escapar de suas artimanhas para evitar perder seu posto como futuro rei.",
-        avaliação:"4,7",
+        url: "https://br.web.img3.acsta.net/c_310_420/pictures/23/07/06/16/50/4093909.jpg",
+        titulo: "Bob Marley: One Love",
+        tipo: ["Biopic", "Drama"],
+        diretor: "Reinaldo Marcus Green",
+        elenco:["Kingsley Ben-Adir", "Lashana Lynch", "James Norton"],
+        sinopsi: "Bob Marley: One Love é um filme biográfico dirigido por Reinaldo Marcus Green (King Richard: Criando Campeãs) que conta a história de Robert Nesta Marley OM, mais conhecido como Bob Marley, grande ícone do reggae. O filme relembra os importantes feitos do cantor para seu país, assim como as dificuldades que sua família e conhecidos passaram.",
+        avaliação:"3,6",
     },
     {
-        url: "https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/92/91/47/20224867.jpg",
-        titulo: "O Senhor dos Anéis - O Retorno do Rei",
-        tipo: ["Aventura", "Fantasia"],
-        diretor:  "Peter Jackson",
-        elenco:["Sean Astin", "Elijah Wood", "Viggo Mortensen"],
-        sinopsi: "Sauron planeja um grande ataque a Minas Tirith, capital de Gondor, o que faz com que Gandalf (Ian McKellen) e Pippin (Billy Boyd) partam para o local na intenção de ajudar a resistência. Um exército é reunido por Theoden (Bernard Hill) em Rohan, em mais uma tentativa de deter as forças de Sauron. Enquanto isso Frodo (Elijah Wood), Sam (Sean ...",
-        avaliação:"4,7",
+        url: "https://br.web.img2.acsta.net/c_310_420/pictures/23/12/19/15/53/5419585.jpg",
+        titulo: "Wish - O Poder dos Desejos",
+        tipo: ["Aventura", "Animação"],
+        diretor:  "Chris Buck",
+        elenco:["Ariana DeBose", "Chris Pine", "Chris Pine"],
+        sinopsi: "Em Wish: O Poder dos Desejos, conhecemos a história de Asha (Ariana DeBose) que em uma medida de desespero para salvar sua terra natal de inimigos, pede com todas as suas forças a ajuda de uma Estrela, que lhe atende. Em companhia de seu bode, Valentino, eles navegam para Rosas, o reino dos desejos, onde os desejos podem literalmente se tornar realidade.",
+        avaliação:"3,1",
     },
     {
-        url: "https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/91/66/66/20156966.jpg",
-        titulo: "À Espera de um Milagre",
-        tipo: ["Policial", "Drama", "Fantasia"],
-        diretor:  "Frank Darabont",
-        elenco:["Tom Hanks", "Michael Clarke Duncan", "David Morse"],
-        sinopsi: "1935, no corredor da morte de uma prisão sulista. Paul Edgecomb (Tom Hanks) é o chefe de guarda da prisão, que temJohn Coffey (Michael Clarke Duncan) como um de seus prisioneiros. Aos poucos, desenvolve-se entre eles uma relação incomum, baseada na descoberta de que o prisioneiro possui um dom mágico que é, ao mesmo tempo, misterioso e milagroso.",
-        avaliação:"4,7",
+        url: "https://br.web.img3.acsta.net/c_310_420/pictures/23/12/07/19/08/2800297.jpg",
+        titulo: "Patos!",
+        tipo: ["Aventura", "Animação", "Comédia"],
+        diretor:  "Benjamin Renner",
+        elenco:["Sérgio Stern", "Kumail Nanjiani", "Priscila Amorim"],
+        sinopsi: "Uma família de patos parte em uma viagem que promete muitas aventuras - mas os planos acabam tomando um rumo diferente.",
+        avaliação:"4,0",
     },
     {
-        url: "https://br.web.img2.acsta.net/c_310_420/medias/nmedia/18/87/87/63/19962446.jpg",
-        titulo: "A vida é Bela",
-        tipo: ["Comédia", "Comédia dramática", "Drama"],
-        diretor: "Roberto Benigni",
-        elenco: ["Roberto Benigni", "Horst Buchholz", "Marisa Paredes"],
-        sinopsi: "Durante a Segunda Guerra Mundial na Itália, o judeu Guido (Roberto Benigni) e seu filho Giosué são levados para um campo de concentração nazista. Afastado da mulher, ele tem que usar sua imaginação para fazer o menino acreditar que estão participando de uma grande brincadeira, com o intuito de protegê-lo do terror e da violência que os cercam.",
-        avaliação:"4,7",
+        url: "https://br.web.img3.acsta.net/c_310_420/pictures/23/12/11/14/39/2389191.png",
+        titulo: "Aquaman 2: O Reino Perdido",
+        tipo: ["Ação", "Aventura", "Fantasia"],
+        diretor: "James Wan",
+        elenco: ["Jason Momoa", "Patrick Wilson", "Amber Heard"],
+        sinopsi: "Aquaman 2 é a sequência do filme Aquaman de 2018, que acompanha Arthur Curry (Jason Momoa), o filho do humano Tom Curry (Temuera Morrison) com a atlante Atlanna (Nicole Kidman)",
+        avaliação:"4,0",
     },
     {
-        url: "https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/86/98/32/19870786.jpg",
-        titulo: "Batman - Ocavaleiro Das Trevas",
-        tipo: ["Ação", "Suspense"],
-        diretor:"Chrstopher Nolan",
-        elenco: ["Christian Bale", "Heath Ledger", "MAaron Eckhart"],
-        sinopsi: "Após dois anos desde o surgimento do Batman (Christian Bale), os criminosos de Gotham City têm muito o que temer. Com a ajuda do tenente James Gordon (Gary Oldman) e do promotor público Harvey Dent (Aaron Eckhart), Batman luta contra o crime organizado. Acuados com o combate, os chefes do crime aceitam a proposta feita pelo Coringa (Heath ...",
-        avaliação:"4,7",
+        url: "https://br.web.img3.acsta.net/c_310_420/pictures/23/08/16/19/38/1565930.jpg",
+        titulo: "Mussum, o Filmis",
+        tipo: "Biopic",
+        diretor:"Silvio Guindane",
+        elenco: ["Ailton Graça", "Vanderlei Bernardino", "Neusa Borges"],
+        sinopsi: "Cinebiografia de Antônio Carlos Bernardes Gomes, o Mussum.",
+        avaliação:"4,0",
     },
     {
-        url: "https://br.web.img2.acsta.net/c_310_420/pictures/19/04/26/17/30/2428965.jpg",
-        titulo: "Vingadores: Ultimato",
-        tipo: ["Ação", "Aventura", "Ficção Cientifica"],
-        diretor:"Joe Russo",
-        elenco: ["Robert Downey Jr.", "Chris Evans", "Mark Ruffalo"],
-        sinopsi: "Os Vingadores unem forças para lutar contra Thanos, após o vilão eliminar metade dos seres vivos da galáxia.",
-        avaliação:"4,7",
+        url: "https://br.web.img3.acsta.net/c_310_420/pictures/23/05/08/10/29/0695770.jpg",
+        titulo: "Oppenheimer",
+        tipo: ["Biopic", "Histórico", "Suspense"],
+        diretor:"Christopher Nolan",
+        elenco: ["Cillian Murphy", "Emily Blunt", "Matt Damon"],
+        sinopsi: "Na Segunda Guerra Mundial, um grupo de cientistas participa de um projeto secreto para desenvolver as primeiras bombas atômicas.",
+        avaliação:"3,8",
     },
 ];
 
-const divResultado = document.getElementById("resultado")
-for (const filme of filmes) {
+const divResultado = document.getElementById("resultados")
+for (const filmes of movie) {
     divResultado.innerHTML += `
     <div class="row">
-        <div class="col-6">
-            <div class="d-flex justify-content-end mb-5">
-                <img class=" img1 " src="${filme.url}">
-            </div>
+    <div class="col-6">
+        <div class="d-flex justify-content-end mb-5">
+            <img class=" img1 " src="${filmes.url}">
         </div>
-        <div class="conteudo col-6">
-            <div class=" ">
-                <h4>${filme.titulo}</h4>
-                <p>Gêrero: ${filme.tipo}</p>
-                <p>Direção: <strong>${filme.diretor}</strong></p>
-                <p>Elenco: ${filme.elenco}</p>
-                <p><strong>Sinopse:</strong> ${filme.sinopsi}</p>
-                <div class="d-flex justify-content">
-                    <div class="avaliacao col-2 border border-black text-center">
-                        <p><strong>Usuários</strong></p>
-                        <h5>${filme.avaliação}</h5>
-                    </div>
-                    <div class=" button1 mx-auto  col-4">
-                        <button type="button" class=" btn btn-primary">Assistir Agora!</button>
-                    </div>
+    </div>
+    <div class="conteudo col-6">
+        <div class=" ">
+            <h4><strong>${filmes.titulo}</strong></h4>
+            <p>Gêrero: <strong> ${filmes.tipo}</strong></p>
+            <p>Direção: <strong>${filmes.diretor}</strong></p>
+            <p>Elenco:<strong> ${filmes.elenco}</strong></p>
+            <p><strong>Sinopse:</strong> ${filmes.sinopsi}</p>
+            <div class="d-flex justify-content">
+                <div class="avaliacao col-2 border border-black text-center">
+                    <p><strong>Usuários</strong></p>
+                    <h5>${filmes.avaliação}</h5>
+                </div>
+                <div class=" button1 mx-auto  col-4">
+                    <button type="button" class=" btn btn-primary">Assistir Agora!</button>
                 </div>
             </div>
         </div>
     </div>
-`
+</div>
+    
+    `
 }
