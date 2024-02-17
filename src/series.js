@@ -1,4 +1,4 @@
-const filmes = [
+const series = [
     {
         url: "https://br.web.img3.acsta.net/c_150_200/pictures/22/09/05/16/15/4077701.jpg",
         titulo: "Santo",
@@ -90,3 +90,18 @@ const filmes = [
         avaliação:"4,7",
     },
 ];
+
+
+const divPageseries = document.getElementById("pageseries")
+for (const serie of series) {
+    divPageseries.innerHTML += `
+    <div class="local col-12 col-md-4  d-flex justify-content">
+        <img class=" img1 " src="${serie.url}">
+        <a href="series.js"><strong>${serie.titulo}</strong></a>
+        <p>Gêrero: <strong> ${serie.tipo}</strong></p>
+    </div>
+    
+    
+    
+`    
+}
